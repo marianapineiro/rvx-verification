@@ -1,0 +1,3 @@
+[submodule "dut/rvx"]
+	path = dut/rvx
+	url = https://github.com/rafaelcalcada/rvx.git

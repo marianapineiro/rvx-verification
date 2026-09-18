@@ -1,0 +1,33 @@
+# ==============================================================================
+# Git Ignore for EDA Verification & Synopsys VCS / Verdi Simulation
+# ==============================================================================
+
+# Synopsys VCS Compilation & Simulation Artifacts
+simv
+simv.daidir/
+csrc/
+ucli.key
+DVEfiles/
+cm.log
+*.daidir/
+*.vpd
+*.fsdb
+*.vdb
+*.key
+
+# Synopsys Verdi Logs & Configuration
+verdiLog/
+novas.conf
+novas.rc
+novas_dump.log
+
+# Temporary simulation outputs & logs
+*.log
+*.jou
+*.pb
+*.wcfg
+
+# Python / General OS temp files
+__pycache__/
+*.pyc
+.DS_Store
